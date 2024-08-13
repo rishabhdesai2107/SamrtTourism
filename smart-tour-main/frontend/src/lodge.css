@@ -1,0 +1,100 @@
+.lodgepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pgpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.lppage .cardss {
+  display: flex;
+  align-items: center;
+  width: 70vw;
+  margin-top: 10vh;
+  /* max-width: 650px; */
+  padding: 20px  15px 20px 15px;
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.lppage p {
+  margin-top: 30px;
+  margin-bottom: 1rem;
+  height: 20vh;
+  overflow-y: auto;
+}
+.lppage .cardss img {
+  /* max-width: 500px !important; */
+  /* width: 50vw !important; */
+  height: 300px;
+  object-fit: cover;
+  margin-left: -130px;
+  margin-right: 10px;
+  margin-top: 5vh;
+  border-radius: inherit;
+  box-shadow: 0 60px 40px rgb(0 0 0 / 8%);
+  transform: scale(0.8);
+  transition: transform 0.3s ease-out;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.lppage .cardss img:hover{
+  transform: scale(1);
+
+}
+.lppage .cardss h3 {
+  color: rgb(0 0 0 / 90%);
+}
+.lppage .cardss p {
+  color: rgb(0 0 0 / 70%);
+}
+
+.lppage .cardss button {
+  border: 0;
+  background: #5448de;
+  color: #f8f8f8;
+  font-family: inherit;
+  padding: 16px 26px;
+  font-size: 16px;
+  border-radius: 40px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transform: scale(0.8);
+  transition: transform 0.3s ease-out;
+}
+
+.lppage .cardss button:hover{
+transform: scale(1);
+}
+.lppage {
+  margin: 20px;
+  padding: 20px;
+}
+@media (width <= 740px) {
+  .lppage .cardss {
+    flex-direction: column;
+    text-align: center;
+    /* margin: 0 40px; */
+
+    margin-bottom: 10vh;
+    width: 100%;
+  }
+
+  .lppage p {
+    height: 35vh;
+    text-align: left;
+    overflow-y: autp;
+  }
+  .lppage .cardss img {
+    margin: -100px 0 30px 0;
+    width: 100%;
+    /* max-width: 1000px; */
+  }
+  
+}

@@ -1,0 +1,37 @@
+.vehicle-bg{
+    width: 100%;
+    opacity: inherit;
+    height: 60vh;
+    object-fit: cover;
+  
+    background-position: center top;
+    background-image: linear-gradient(
+        180deg,
+        rgba(150, 105, 97, 0.67) 0%,
+        rgba(2, 0, 76, 0.84) 100%
+      ),
+      url(https://www.shutterstock.com/image-vector/car-rent-thin-line-icons-600nw-2289282357.jpg) !important;
+  }
+
+  .vehicle-rental-div .centered-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+  }
+
+  .vehicle-rental-div .centered-buttons button{
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+
+
+  }
+
+  .div-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }

@@ -1,0 +1,400 @@
+body {
+  /* font-family: "Pacifico"; */
+  /* background-color: #2f091b; */
+  /* padding: 20px;
+  margin: auto; */
+}
+
+.hotel-bg-img{
+  width: 100%;
+  opacity: inherit;
+  height: 60vh;
+  object-fit: cover;
+
+  background-position: center top;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url(https://static.vecteezy.com/system/resources/thumbnails/006/045/958/small/hotel-regular-line-icons-design-free-vector.jpg) !important;
+}
+
+#lodges-button,
+#paying-guest-button {
+
+  font-size: 18px; /* Change the font size to your preference */
+}
+
+
+
+.centered-buttons{
+  display: flex;
+
+  margin-top: 50px;
+  padding: 15px;
+  border-radius: 15px;
+  /* width: 90vw; */
+  /* width: fit-content; */
+}
+.centered-buttons button {
+  background: none;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  /* color: white; */
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+   /* Add a smooth transition for text color change */
+}
+
+
+
+.centered-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.centered-buttons button {
+  background: none;
+  border: none;
+  /* color: white; */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style the "Lodges" and "Paying Guest" pages as needed */
+
+
+.centered-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.centered-buttons button {
+  background: none;
+  border: none;
+  outline: none;
+  /* color: white; */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.centered-buttons button:hover{
+  background-color: #a0ced9;
+  
+}
+
+
+/* Style the "Lodges" and "Paying Guest" pages as needed */
+
+
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+
+/* .image {
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 10%;
+} */
+
+.description {
+  position: relative;
+  text-align: center;
+  width: 50%;
+  padding: 1ch 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Add transition to smoothly transition back to the original state when not hovered */
+
+
+/* .description button {
+  display: block;
+  margin-top: 20px; 
+  width: 10em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+} */
+
+/* Modify the font color and style for description */
+.description {
+  /* color: rgb(255, 255, 255); */
+   /* Change to the desired font color */
+  /* font-family: cursive; */
+  font-size: large;
+}
+
+/* Modify the font color and style for titles within description */
+.description h2 {
+  /* color: rgb(255, 255, 255);  */
+  /* Change to the desired font color */
+  font-weight: bold; /* Change to the desired font style */
+  font-size: xx-large;
+}
+
+/* .explore-button::before,
+.call-button::before {
+  content: "";
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to left, #a64c7f, #984c92, #8b4ca4);
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+} */
+
+/* .explore-button:hover::before,
+.call-button:hover::before {
+  width: 18em;
+} */
+
+/* Make images responsive */
+.image img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  border-radius: 10%; /* Maintain the border-radius */
+}
+
+/* Apply styles for mobile screens */
+@media screen and (max-width: 768px) {
+  .large-division {
+    flex-direction: column;
+  }
+
+  .large-division .content {
+    display: block;
+    width: 100%;
+  }
+
+  .image,
+  .description {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+.large-division {
+  margin-top: 20px;
+  display: flex;
+  height: 23rem;
+}
+
+/* ... Other styles ... */
+
+.large-division {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 45%; /* Adjust image width */
+}
+
+.buttons {
+  display: flex;
+  justify-content: center space-between;
+  margin-top: 20px;
+  padding: 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  width: 48%;
+  padding: 10px;
+  margin: 0 5px; /* Add margin for spacing between buttons */
+}
+
+
+
+/* Mobile Styles */
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1s ease-in, transform 1s ease-in;
+}
+
+/* Slide from left */
+.image.slide-from-left {
+  transform: translateX(-20px);
+}
+
+.slide-from-left {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.6s, transform 0.6s;
+}
+
+/* Your existing styles */
+
+.description {
+  /* Your existing styles */
+  overflow: hidden;
+  position: relative;
+}
+
+.scrollable {
+  max-height: 6em; /* Limit the max height to 6 lines */
+  overflow-y: auto; /* Add a scrollbar when content exceeds the max height */
+}
+
+/* Add additional styles as needed */
+
+/* Additional CSS for button positioning */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* style.css */
+
+.description-content {
+  max-height: 6em; /* Adjust this to control the number of lines displayed */
+  overflow-y: auto;
+}
+
+/* Customize the scrollbar track */
+/* .description-content::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+} */
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
+
+/* Customize the scrollbar thumb (the draggable part) */
+
+
+/* Customize the scrollbar track on Firefox */
+
+
+/* mobile css */
+
+/* Apply styles for mobile screens */
+@media screen and (max-width: 768px) {
+  .large-division {
+    flex-direction: column;
+    margin-bottom: 450px; /* Add margin to separate sections */
+  }
+
+  .large-division .image {
+    width: 100%;
+    max-width: 100%; /* Set a maximum width for the images */
+    margin: 0; /* Remove margin to prevent extra spacing */
+    margin-bottom: 10px; /* Add margin to separate image and description */
+  }
+
+  .large-division .description {
+    display: block; /* Add this to ensure the description is visible on mobile screens */
+    max-height: none; /* Adjust this property */
+    overflow: visible;
+    width: 100%;
+    padding: 20px; /* Adjust the padding to control the spacing */
+  }
+
+  /* mobile-style.css */
+  /* ... (other styles) ... */
+
+  .scrollable {
+    overflow-y: auto; /* Add a scrollbar when content exceeds the available space */
+  }
+
+  /* Add additional styles as needed */
+
+  .large-division .description {
+    display: block;
+  }
+
+  .description-content {
+    max-height: 6em; /* Limit the max height to 6 lines */
+    overflow-y: auto; /* Add a scrollbar when content exceeds the max height */
+  }
+
+  .buttons {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .buttons button {
+    width: 100%;
+    margin: 10px 0; /* Add margin for spacing between buttons */
+  }
+}
+
+/* Your existing styles */

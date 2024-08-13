@@ -1,0 +1,25 @@
+###########   .env File  ###########
+MONGODB_URL=
+JWT_SECRET=anything
+
+################  Install Packages (One-Time Setup) #############
+1. Navigate to the root folder: `npm install`
+2. Go to the frontend folder: `npm install`
+3. Proceed to the dashboard folder: `npm install`
+
+###########       Admin      ##############
+Default Username: admin@smarttourism.com
+Default Password: 12345678
+
+###########    Forgot Admin Password    ##############
+Run the following command to reset the admin password:
+node forgetpassword.js --u=admin@smarttourism.com --p=123456789
+
+###########  Project Run ##########
+To start the project, use the following command:
+npm run dev
+After running the project, you can access the different components at the following URLs:
+1. Frontend URL: http://localhost:3000
+2. Dashboard URL: http://localhost:3030
+3. Backend URL: http://localhost:5000
+

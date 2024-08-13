@@ -1,0 +1,54 @@
+/* Apply styles for mobile screens */
+@media screen and (max-width: 768px) {
+    .large-division {
+        flex-direction: column;
+        margin-bottom: 450px; /* Add margin to separate sections */
+    }
+
+    .large-division .image {
+        width: 100%;
+        max-width: 100%; /* Set a maximum width for the images */
+        margin: 0; /* Remove margin to prevent extra spacing */
+        margin-bottom: 10px; /* Add margin to separate image and description */
+    }
+
+    .large-division .description {
+        display: block; /* Add this to ensure the description is visible on mobile screens */
+        max-height: none; /* Adjust this property */
+        overflow: visible; 
+        width: 100%;
+        padding: 20px; /* Adjust the padding to control the spacing */
+    }
+    
+    /* mobile-style.css */
+/* ... (other styles) ... */
+
+.scrollable {
+    overflow-y: auto; /* Add a scrollbar when content exceeds the available space */
+}
+
+/* Add additional styles as needed */
+
+    .large-division .description {
+        display: block;
+    }
+    
+    .description-content {
+        max-height: 6em; /* Limit the max height to 6 lines */
+        overflow-y: auto; /* Add a scrollbar when content exceeds the max height */
+    }
+
+    .buttons {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .buttons button {
+        width: 100%;
+        margin: 10px 0; /* Add margin for spacing between buttons */
+    }
+
+    
+    
+    
+}

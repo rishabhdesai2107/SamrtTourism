@@ -1,0 +1,137 @@
+[
+    {
+    "id":"1",
+    "name":"Ganesh-Ghule",
+    "image":"img/Ganeshgule-Beach-12.jpg",
+    "type":"Beach",
+    "description":"This beach is located in a remote and quiet village of Ganeshgule. Being remote, there are not many people on the beach. So, those who love solitude would really like it. The beach itself is of around 1km stretch with small hillocks at both the ends. One can climb on the small hillock easily and enjoy the sunset. Since, it is away from main town, there is no commercialization and one can enjoy clean water, soft sand. But on the flip side, you will need to carry your own eat/play stuff.",
+    "knownas":["Clear Water","White Sand","Palm Trees"],
+    "mapurl":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d61050.903681243915!2d73.2708234!3d16.9902109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bea0d1839a6bb7f%3A0x63ab969b79bf6561!2sRatnagiri%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1708457022405!5m2!1sen!2sin",
+    "location":"Near Ratnagiri",
+    "tab":"corporate"
+},
+{
+    "id": "2",
+    "name": "Bhatye Beach",
+    "image": "img/Bhatye-beach-Ratnagiri.jpg",
+    "type": "Beach",
+    "description": "The Bhatye beach is a lovely, long stretch of a clean beach ideal for a relaxing holiday. Bhatye, a small village close to Ratnagiri city is popular for its generous flat sea showers.",
+    "knownas": ["Suruban","crystal blue waters","golden sand","beautiful beach"],
+    "mapurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15264.076843029803!2d73.28363123988176!3d16.973605341512567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bea0d4aaec3d89f%3A0x3f007e92b0aecc52!2sBhatye%20Beach!5e0!3m2!1sen!2sin!4v1708523979061!5m2!1sen!2sin" ,
+    "location": "In Ratnagiri",
+    "tab": "personal"
+},
+{
+    "id": "3",
+    "name": "Ratnadurg Fort",
+    "image": "img/Ratandurga-Fort-12.jpg",
+    "type": "Fort",
+    "description": "This fort is located on a mountain and provides a spectacular view of the city. It is surrounded by the Arabian sea on three sides. ",
+    "knownas": ["Ratnagiri Fort","Bhagawati Fort"],
+    "mapurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.5625017031075!2d73.26802557450443!3d16.996057083825942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bea129b82de8597%3A0xd38137ef65faeec5!2sRatnadurg%20Fort!5e0!3m2!1sen!2sin!4v1708524011705!5m2!1sen!2sin" ,
+    "location": "In Ratnagiri",
+    "tab": "agency"
+},{
+    "id": "4",
+    "name": "Ratnagiri Lighthouse",
+    "image": "img/download (4).jpg",
+    "type": "Mountain View",
+    "description": "Ratnagiri lighthouse is located on the nearby hill of Ratnadurga fort. Road to Lighthouse is narrow and only 1 car can travel at a time.  Height: 49 Height of Focal Plane: 336 Characteristic and Range: Two white flashes every 10 seconds.",
+    "knownas": ["Ratnadurg Light House"],
+    "mapurl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.7304466871615!2d73.2699448745043!3d16.98780428383286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bea12a1d8b73229%3A0x73de13fe689c438c!2sRatnagiri%20Light%20House!5e0!3m2!1sen!2sin!4v1708524047929!5m2!1sen!2sin" ,
+    "location": "In Ratnagiri",
+    "tab": "portal"
+},{
+    "id": "5",
+    "name": "Karhateshwar-temple",
+    "image": "img/karhateshwar-temple.jpg",
+    "type": "Hidden Gems",
+    "description": "Estimated to have been constructed during the reign of the Shilaharas, the Karhateshwar Temple is a shore-front temple close to the Jaigad Fort.Karhateshwar Temple is situated at Nandivade village near Jaigad Fort of Rajapur taluka in Ratnagiri. This temple is just 12 minutes away from Jaigad Fort.",
+    "knownas": ["ancient temple","old temple of Lord Shiva"],
+    "mapurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3809.2283693265854!2d73.19147727451255!3d17.304527183568627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bea1de881f1f695%3A0x68d1e843f32f047b!2sKarhateshwar%20Temple!5e0!3m2!1sen!2sin!4v1708524081361!5m2!1sen!2sin" ,
+    "location": "Near Jaigad Fort - Rajapur Taluka",
+    "tab": "corporate"
+},
+{
+    "id": "6",
+    "name": "Mandvi Beach",
+    "image": "img/download (1).jpg",
+    "type": "Beach",
+    "description": "Mandavi Beach is blessed with beautiful seashore, which extends right up to Rajiwanda Port. This fabulous beach is surrounded by Ratnadurg Fort in the west and the majestic Arabian Sea to the south. Mandavi Beach is one of the busiest beaches in Maharashtra, as it is popular among water sports enthusiasts. Mandavi Beach although appears a little unattractive because of the black sand, compared to other beaches, yet it is the most sought after picnic spot in Ratnagiri.",
+    "knownas": ["Gateway of Ratnagiri","Ratnagiri Jetty","Black Sea"],
+    "mapurl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58836.17046747462!2d69.24990204863275!3d22.82984410000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395135cf4739ed39%3A0x3b896afabaa76c33!2sMandvi%20Beach!5e0!3m2!1sen!2sin!4v1708524116851!5m2!1sen!2sin" ,
+    "location": "In Ratnagiri",
+    "tab": "personal"
+},
+{
+    "id": "7",
+    "name": "Jaigad Fort",
+    "image": "img/download (2).jpg",
+    "type": "Fort",
+    "description": "Jaigad Fort is a coastal fortification that is located at the tip of a peninsula in Jaigad, Ratnagiri District at a distance of 14 km from the temple town of Ganpatipule, in the state of Maharashtra, India. Nestled on a cliff, it overlooks a bay formed where the Shastri river enters the Arabian Sea.",
+    "knownas": [" Fort of Victory"],
+    "mapurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3809.311920636781!2d73.21903707451237!3d17.300492983571885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bea1da24cc5774f%3A0x9002f811b7303ba8!2sJaigad%20Fort!5e0!3m2!1sen!2sin!4v1708524159036!5m2!1sen!2sin" ,
+    "location": "Near Jaigad -Ratnagiri",
+    "tab": "agency"
+},
+{
+    "id": "8",
+    "name": "Table point",
+    "image": "img/download (5).jpg",
+    "type": "Mountain View",
+    "description": "Beautiful scenic view of the beach and sunset. Table Point which Is located near Bhatye & kurli Beach in Arabian Sea ",
+    "knownas": ["Vista point"],
+    "mapurl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1942621.1243291867!2d71.77904977497322!3d18.01676073504592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bea72b3858a22a9%3A0x22fb077ef9f696f0!2sTable%20Point%20Ratnagiri!5e0!3m2!1sen!2sin!4v1708524209877!5m2!1sen!2sin" ,
+    "location": "In Ratnagiri",
+    "tab": "portal"
+},
+{
+    "id": "9",
+    "name": "Bhagwati",
+    "image": "img/1454690612_dsc05010.jpg",
+    "type": "Mountain View",
+    "description": "Located just 2 km away from Ratnagiri, Bhagwati is a famous tourist attraction. ",
+    "knownas": ["Sunset Point"],
+    "mapurl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15262.511665638625!2d73.25355690913365!3d16.992843074069388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bea129e8f75c1ad%3A0x7e802a03405350c0!2sBhagwati%20Fort%20And%20Light%20House%2C%20Ratnagiri%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1708524282198!5m2!1sen!2sin" ,
+    "location": "In Ratnagiri",
+    "tab": "portal"
+},
+{
+    "id": "10",
+    "name": "Kunkeshwar Beach",
+    "image": "img/download.jpg",
+    "type": "Beach",
+    "description": "Kunkeshwar is one of the famous beaches. Kunkeshwar is worth visiting place. The beach is small and beautiful and the temple is just fantastic.",
+    "knownas": ["pristine beach"],
+    "mapurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3828.8373115261847!2d73.39089017448761!3d16.33125488438679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bea9ea1fa1ed6ef%3A0x78eef975b764fe30!2sKunkeshwar%20Beach!5e0!3m2!1sen!2sin!4v1708524327013!5m2!1sen!2sin" ,
+    "location": "Near Katwaneshwar",
+    "tab": "corporate"
+},
+{
+    "id": "11",
+    "name": "Mirya Beach",
+    "image": "img/miryabeach.jpg",
+    "type": "Beach",
+    "description": "Situated in Ratnagiri 346 kilometers from Mumbai, Mirya beach offers a healthy marine life up for exploration. With top notch diving gear and qualified instructors, head here if you’re short on time. Some of the diving centres here also offer night diving, which is a whole other experience.",
+    "knownas": ["Bharti Shipyard Road","Mirya Samandar"],
+    "mapurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.0965863789315!2d73.27681637450502!3d17.018931783806764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bea13c5da37dd83%3A0x3592b95b6f850e3d!2sMirya%20beach!5e0!3m2!1sen!2sin!4v1708524367647!5m2!1sen!2sin" ,
+    "location": "In Ratnagiri",
+    "tab": "personal"
+},
+{
+    "id": "12",
+    "name": "Purnagad Fort",
+    "image": "img/download (3).jpg",
+    "type": "Fort",
+    "description": "Purnagad is a small fort situated at the confluence of the Muchkundi river and the Arabian sea. It was one of the important forts from Kanhoji Angres Navy.",
+    "knownas": ["Kagal Fort"],
+    "mapurl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.369470330409!2d73.31008517562488!3d16.808017242686635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bea706778155555%3A0x3693ce4f40686830!2sPurnagad%20Fort!5e0!3m2!1sen!2sin!4v1708524431667!5m2!1sen!2sin" ,
+    "location": "Near Ratnagiri",
+    "tab": "agency"
+}
+   
+
+
+]
+
+

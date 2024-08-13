@@ -1,0 +1,460 @@
+.monument-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  /* background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147)); */
+}
+.monument-card {
+  border: 1px solid #7ca982;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px #243e36;
+  margin: 20px;
+  padding: 20px;
+  width: 30em;
+  height: 82vh;
+  /* overflow: auto; Fixed height for all monument cards */
+  /* text-overflow: ellipsis; Show ellipsis (...) for overflowing text */
+  /* transition: transform 0.3s ease-in-out; */
+  background-color: #f1f7ed; /* Background color for the monument cards */
+}
+
+.monument-div {
+  margin-top: 30px;
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+}
+.monument-card h2 {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+.monument-card p {
+  font-size: 0.8em;
+}
+.monument-card:hover {
+  transform: scale(1.05);
+}
+.monument-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.businesspage-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.business-img {
+  width: 100%;
+  opacity: inherit;
+  height: 60vh;
+  object-fit: cover;
+
+  background-position: center top;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url(https://ratnagiritourism.in/wp-content/uploads/2022/06/Business-Background-Image-2.jpg) !important;
+}
+
+.bg-title {
+  position: absolute;
+  top: 220px;
+  /* left: 120px; */
+  /* background: yellow; */
+  /* color: white; */
+  width: 100%;
+  /* opacity: 0.7; */
+  text-align: center;
+}
+
+.bg-title h1 {
+  font-size: 6rem;
+  color: white;
+}
+
+.pre-title h2 {
+  width: 100% !important;
+  text-align: center;
+  margin: 5vh;
+}
+
+.business-main-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.search-business-sec {
+  flex: 0.3 1;
+  display: flex;
+  flex-direction: column;
+
+  margin: 2vw;
+  padding: 20px;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.main-business-cont {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+  justify-content: center;
+  align-items: center;
+  margin: 2vw;
+}
+
+.see-more {
+  /* display: flex; */
+  padding: 20px;
+}
+
+.business-card {
+  width: 30em;
+  height: 85vh;
+}
+
+.business-container-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100% !important;
+  /* margin-left: 100px; */
+  gap: 35px;
+}
+
+.card-img-top {
+  height: 45vh;
+}
+
+.cardimgtime-cont {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+
+  gap: 2vh;
+  margin: 15px;
+}
+
+.cardimg img {
+  width: 20vw;
+  height: 30vh;
+}
+
+.cardcontent {
+  flex: 1;
+  margin: 15px;
+}
+
+.details-table {
+  margin-top: 15px;
+}
+
+.cardcontent h5 {
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 5px;
+}
+
+tbody {
+  padding: 20px;
+}
+.cardcontent .business-title h2 {
+  font-size: 2rem;
+}
+.resbtn {
+  display: none;
+}
+
+.addbusinessmodel {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 15px;
+}
+
+.blog-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.blog-form button {
+  width: 50%;
+}
+
+
+
+.travel-head {
+  top: 25vh;
+  background-color: aliceblue;
+  opacity: 0.7;
+  width: 100%;
+  padding: 15px;
+  font-size: 5rem !important;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+
+  /* align-content: center;
+  justify-content: center; */
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.wrapper .card {
+  position: relative;
+  width: 35vw;
+  height: 50vh;
+  margin: 10px;
+  /* background: #000; */
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0, 8, 9, -2);
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.wrapper .poster {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 106%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrapper .poster::before {
+  content: "";
+  position: absolute;
+  bottom: -45%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+.wrapper .card:hover .poster::before {
+  bottom: 0;
+}
+
+.wrapper .poster img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.wrapper .card:hover .poster img {
+  transform: scale(1.1);
+}
+
+.wrapper .details {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding: 1.5em 1.5em 2em;
+  background: rgba(60, 60, 60, 0.852);
+  backdrop-filter: blur(16px) saturate(126%);
+  transition: 0.3s;
+  color: #fff;
+  z-index: 2;
+}
+
+.wrapper .card:hover .details {
+  bottom: 0;
+}
+
+.wrapper .details .desc {
+  color: #fff;
+  opacity: 1;
+  line-height: 1;
+  margin-bottom: 1em;
+  font-weight: 300 !important;
+  font-size: 1em !important;
+}
+
+.bg-itinerary-img{
+  width: 100%;
+  opacity: inherit;
+  height: 60vh;
+  object-fit: cover;
+
+  background-position: center top;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url(../public/img/rtnpic3.jpg) !important;
+}
+
+.bg-text{
+  position: relative;
+  top: 150px;
+  font-size: 5rem;
+}
+
+.blog-bg{
+  width: 100%;
+  opacity: inherit;
+  height: 40vh;
+  object-fit: cover;
+
+  background-position: center top;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url(https://www.elegantthemes.com/blog/wp-content/uploads/2017/06/shutterstock_102245596.jpg) !important;
+}
+.history-bg{
+  width: 100%;
+  opacity: inherit;
+  height: 40vh;
+  object-fit: cover;
+
+  background-position: center top;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url(https://wallpapercave.com/wp/wp8670197.jpg) !important;
+}
+
+.hotel-bg{
+  width: 100%;
+  opacity: inherit;
+  height: 40vh;
+  object-fit: cover;
+
+  background-position: center top;
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url(https://media.istockphoto.com/id/1183975743/vector/set-of-hotel-facitilies-icons-vector-pattern-design.jpg?s=612x612&w=0&k=20&c=9PimnRkfhL8fKdlJDvlRGiDeumZajY0zCZluTygeY8A=) !important;
+
+}
+
+.blog-cols{
+  border-radius: 15px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
+}
+
+.blog-cols:hover{
+  transform: scale(1);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
+}
+::-webkit-scrollbar {
+  width: 25px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+@media screen and (max-width: 480px) {
+  .wrapper .card {
+    margin: 0;
+    width: 75vw;
+    height: 50vh;
+  }
+  .wrapper .details .desc {
+    color: #fff;
+    opacity: none;
+    line-height: 1;
+    margin-bottom: 1em;
+    font-weight: 300 !important;
+    font-size: 1em !important;
+  }
+  .bg-title h1 {
+    font-size: 2.5rem;
+  }
+  .pre-title h2 {
+    margin: 2vh;
+  }
+  .business-main-cont {
+    flex-direction: column;
+  }
+  .see-more {
+    padding: 10px;
+  }
+  .business-card {
+    width: 25em;
+  }
+  .modal-content {
+    flex-direction: column;
+  }
+  .cardimg img {
+    width: 80vw;
+    height: 30vh;
+  }
+  .resbtn {
+    display: flex;
+    width: 30vw;
+    margin: 10px;
+  }
+  .resbbtn {
+    display: none;
+  }
+.bg-hotel-text{
+font-size: 3rem;
+  }
+  .bg-text {
+    position: relative;
+    top: 110px;
+    font-size: 3rem;
+}
+
+ 
+}
